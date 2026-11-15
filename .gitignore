@@ -1,0 +1,50 @@
+# ---- 凭据与登录态（绝不入库）----
+.state/
+**/login_state.json
+**/note_token_pairs.json
+**/storage_state*.json
+**/cookies*.json
+**/*cookie*.txt
+.env
+.env.*
+*.pem
+*.key
+
+# ---- 抓取/下载产物 ----
+notes_all.json
+notes_digest.md
+outputs/
+out/
+downloads/
+**/*.mp3
+**/*.m4a
+**/*.wav
+**/*.flac
+**/*.flv
+**/*.mp4
+**/*.jpg
+**/*.jpeg
+**/*.png
+**/*.webp
+**/*.lrc
+!**/assets/**/*.png
+!**/assets/**/*.jpg
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+*.tmp
