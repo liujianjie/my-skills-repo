@@ -2,6 +2,16 @@
 
 存放我自己的 DeepSeek Harness（DSH）skill 的版本库。
 
+## 仓库位置
+
+| 项 | 值 |
+| --- | --- |
+| 工作副本 | `G:\AIProject\my-skills-repo`（刻意不放 C 盘 `~/.dsh`） |
+| 远程（私有） | <https://github.com/liujianjie/my-skills-repo> |
+| 分支 | `main`（跟踪 `origin/main`） |
+
+> 注意：仓库本身在 G 盘，但 **skill 生效位置仍是 `%USERPROFILE%\.dsh\skills\`**（C 盘）——DSH 只从那里加载 skill，所以改完要 `-Direction Push` 装回去。仓库只是版本副本与备份，不参与运行。
+
 ## 为什么单独建库
 
 机器上原有的 `~/.dsh/agent-skills-repo` 是上游 `addyosmani/agent-skills` 的 clone：
@@ -9,7 +19,9 @@
 - `origin` 指向第三方仓库，没有写权限，本地 main 已 ahead 197（那是上游新提交，不是我的改动）；
 - 收录的是通用软件工程流程类 skill（code-review、TDD、git workflow…），主题上不覆盖「对具体平台干活」的落地型 skill。
 
-所以自建 skill 单独放这里，按主题聚合，不和上游 clone 混在一起。
+GitHub 上 `liujianjie/agent-skills` 只是上游的 fork（public），同理不收自建内容。
+
+所以自建 skill 单独放这里，按主题聚合，不和上游 clone / fork 混在一起。
 
 ## 收录范围
 
