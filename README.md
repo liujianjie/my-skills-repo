@@ -7,7 +7,7 @@
 | 项 | 值 |
 | --- | --- |
 | 工作副本 | `G:\AIProject\my-skills-repo`（刻意不放 C 盘 `~/.dsh`） |
-| 远程（私有） | <https://github.com/liujianjie/my-skills-repo> |
+| 远程（公开） | <https://github.com/liujianjie/my-skills-repo> |
 | 分支 | `main`（跟踪 `origin/main`） |
 
 > 注意：仓库本身在 G 盘，但 **skill 生效位置仍是 `%USERPROFILE%\.dsh\skills\`**（C 盘）——DSH 只从那里加载 skill，所以改完要 `-Direction Push` 装回去。仓库只是版本副本与备份，不参与运行。
